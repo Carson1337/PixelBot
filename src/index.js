@@ -1,5 +1,6 @@
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js');
-const { token } = require('dotenv').config();
+const { log } = require('node:console');
+const { TOKEN } = require('dotenv').config();
 
 const fs = require('node:fs');
 const path = require('node:path')
@@ -45,3 +46,4 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
     console.log(interaction);
 });
+
