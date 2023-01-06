@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/SZhang1337/PixelBot/issues"
   },
-  "homepage": "https://github.com/SZhang1337/PixelBot#readme"
+  "homepage": "https://github.com/SZhang1337/PixelBot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.5.0",
+    "@discordjs/voice": "^0.14.0",
+    "discord-music-player": "^9.1.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ffmpeg": "^0.0.4"
+  }
 }
